@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    width: 310px;
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    box-shadow: 10px 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-image {
+    margin: 1em 0 0 0;
+    width: 90%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.content-image > img {
+    width: 100%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.content-p {
+    margin: 0 1em;
+}
+
+.learning {
+    margin: 1em 0 1em 0;
+    padding: .5em .7em .5em .7em;
+    width: max-content;
+    border-radius: 10%;
+    background-color: hsl(47, 88%, 63%);
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    font-family: "Figtree", serif;
+    font-weight: 800;
+}
+
+.date {
+    margin: .8em 0 0 0;
+    font-family: "Figtree", sans-serif;
+    font-size: .8rem;
+    color: hsl(0, 0%, 7%);
+}
+
+.content-p > h1 {
+    margin: 1em 0 0 0;
+    font-size: 1.2rem;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.content-p > p {
+    line-height: 1.3rem;
+    color: hsl(0, 0%, 50%);
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.avatar {
+    width: 2.2rem;
+    height: 2.2rem;
+    border: 50%;
+}
+
+.avatar > img {
+    width: 100%;
+}
+
+.name {
+    margin-left: 1rem;
+    font-size: .8rem;
+    font-family: "Figtree", sans-serif;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
